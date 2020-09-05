@@ -1,0 +1,6 @@
+name: RiftEvents
+version: ${project.version}
+main: org.hassan.riftevents.rifteventsrecoded.RiftEvents
+api-version: 1.16.1
+authors: [hassan7000]
+description: A event plugin 

@@ -1,0 +1,72 @@
+Help-Message:
+  - '&d/riftevents join {event}'
+  - '&d/riftevents stop {event}'
+  - '&d/riftevents setup {event}'
+broadcasts:
+  line-1: "&c%player% &fhas started,"
+  line-2: "&fThe %event% &fEvent,"
+  line-3: "&f&nClick here to Join."
+  line-4: "&fStarting in &c%timeleft%."
+  started: '&c%player% &fhas started &c&l%event% &fevent&c. '
+  broadcast: '&c%player% &fhas started &c&l%event% &fevent&c. &fStart in &c%timeleft% seconds '
+  started-click: '&n&fClick here to Join'
+  started-hover: '&7Click to join in this event'
+  win-1: '&c%player% &fhas won,'
+  win-2: '&c&l%event% event&f!!!'
+
+Games:
+  Dropper:
+    Min-Players: 2
+    Max-Players: 30
+    PointMessage: 'You got a point'
+    starting-time: 60
+    spectator: true
+    broadcast-times:
+      - 60
+      - 30
+      - 15
+      - 10
+      - 5
+      - 3
+      - 2
+      - 1
+    broadcast-on-event-start:
+      - 'The event has started'
+    broadcast-on-join-event:
+      - '{gameplayer} has joined the dropper event'
+  Sumo:
+    Min-Players: 2
+    Max-Players: 30
+    starting-time: 60
+    spectator: true
+    broadcast-times:
+      - 60
+      - 30
+      - 15
+      - 10
+      - 5
+      - 3
+      - 2
+      - 1
+    broadcast-on-event-start:
+      - 'The event has started'
+    broadcast-on-join-event:
+      - '{gameplayer} has joined the sumo event'
+  Spleef:
+    Min-Players: 2
+    Max-Players: 30
+    starting-time: 60
+    spectator: true
+    broadcast-times:
+      - 60
+      - 30
+      - 15
+      - 10
+      - 5
+      - 3
+      - 2
+      - 1
+    broadcast-on-event-start:
+      - 'The event has started'
+    broadcast-on-join-event:
+      - '{gameplayer} has joined the sumo event'
